@@ -1,0 +1,4 @@
+.seed/
+__pycache__/
+.DS_Store
+.ai-hub/

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "backend": {"type": "git", "remote": "origin", "branch": "main"},
+  "managed": ["AGENTS.md", "CLAUDE.md", "HANDOFF.md", "STATUS.md", "DISPATCH-LOG.md", ".ai-hub/remote-continuity.json"],
+  "limits": {"allowed_suffixes": [".md", ".json"], "max_file_bytes": 1048576},
+  "trigger": {"quiet_seconds": 45, "max_wait_seconds": 900, "retry_interval_seconds": 600}
+}

@@ -1,0 +1,1 @@
+"""Optional continuity tools."""

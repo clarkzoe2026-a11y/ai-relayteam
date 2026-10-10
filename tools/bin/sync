@@ -1,0 +1,4 @@
+#!/bin/sh
+# Remote Progress Sync v0.1 — see docs/sync.md
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec /usr/bin/env python3 "$SCRIPT_DIR/../remote_sync.py" "$@"
