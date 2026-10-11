@@ -23,6 +23,8 @@ Begin every report with your identity and role, such as "Claude, lead:" or "Code
 
 The lead breaks down tasks, checks results, and maintains HANDOFF.md and STATUS.md. Workers stay within their authorized scope. A task sent to a worker must start with `[LEAD DISPATCH]` and state its goal, directory, permissions, success criteria, and how to report back. The lead checks `git status` before and after dispatch to establish ownership and scope of changes, checks each piece of evidence, then records the task, result, and review in DISPATCH-LOG.md. A worker's own account is AGENT_REPORTED; it does not become VERIFIED automatically.
 
+**Where the worker CLI lives** (the usual snag after switching machines): first try `command -v codex` (and the like). If not found, on macOS the Codex bundled with the ChatGPT desktop app is at `/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex`. Still not found: ask the user where it is installed, then write the full path into "Current setup" above and use it from then on.
+
 ## Changing hands
 
 - Worker unavailable: retry at most once and tell the user why it failed. The lead may do the work directly only after the user confirms. Do not switch to a paid call to get around a quota limit.

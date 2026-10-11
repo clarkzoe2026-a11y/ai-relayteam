@@ -5,6 +5,8 @@ The lead checks `git status` first. A worker task starts with `[LEAD DISPATCH]` 
 | Worker | Non-interactive call | Status |
 | --- | --- | --- |
 | Codex CLI | `codex exec -C <dir> --sandbox read-only "<task>"` | Tested |
+
+> If `codex` is not found: on macOS the Codex bundled with the ChatGPT desktop app is not on PATH; it is at `/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex` (found in a 2026-10-11 test where the lead could not dispatch). Once found, write it into "Current setup" in `AGENTS.md`.
 | Claude Code | `claude -p "<task>"` | Per official docs; not tested |
 | CodeBuddy / WorkBuddy | `codebuddy -p "<task>"` | Per official docs; not tested |
 | Other | Check the corresponding CLI docs | Not tested |

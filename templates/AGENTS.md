@@ -23,6 +23,8 @@
 
 负责人拆任务、核对结果、维护 HANDOFF.md / STATUS.md；执行者只做获授权范围内的事。给执行者的任务首行必须是 `【负责人派活】`，写明目标、目录、权限、成功标准和回报方式。派活前后负责人检查 `git status`，确认改动归属与范围；逐项核对执行者的证据，再把任务、结果和核对写入 DISPATCH-LOG.md。执行者自述属于 AGENT_REPORTED，不自动升级为 VERIFIED。
 
+**执行者的命令在哪**（换电脑后最容易卡住）：先用 `command -v codex` 等找；找不到时，macOS 上 ChatGPT 桌面版自带的 Codex 在 `/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex`。仍找不到就问用户装在哪，并把找到的完整路径写进上面的「当前配置」，以后直接用。
+
 ## 换人
 
 - 执行者不可用：最多重试 1 次，告诉用户失败原因；用户确认后负责人才能自己做。不得为绕开额度改用付费调用。

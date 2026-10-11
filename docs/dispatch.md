@@ -5,6 +5,8 @@
 | 执行者 | 非交互调用 | 状态 |
 | --- | --- | --- |
 | Codex CLI | `codex exec -C <dir> --sandbox read-only "<任务>"` | 已实测 |
+
+> 找不到 `codex` 命令时：macOS 上 ChatGPT 桌面版自带的 Codex 不在 PATH，路径为 `/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex`（2026-10-11 换文件夹实测时负责人因找不到它而无法派活）。找到后写进 `AGENTS.md`「当前配置」。
 | Claude Code | `claude -p "<任务>"` | 据官方文档，未实测 |
 | CodeBuddy / WorkBuddy | `codebuddy -p "<任务>"` | 据官方文档，未实测 |
 | 其他 | 查对应 CLI 文档 | 未实测 |
