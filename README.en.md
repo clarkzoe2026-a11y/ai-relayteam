@@ -2,7 +2,7 @@
 
 **Switch AIs, work continues. Multiple AIs collaborate.**
 
-https://github.com/user-attachments/assets/7e8133c4-59fd-4309-b4c7-67f65066e07c
+https://github.com/user-attachments/assets/ab0b95f1-88c8-4b22-b3cb-08939f03da3d
 
 86-second promo (Chinese narration): real screen recordings of a small reading-list project, showing an AI picking up where another left off and several AIs splitting the work.
 

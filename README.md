@@ -2,7 +2,7 @@
 
 **换 AI，活不停；多个 AI，会分工。**
 
-https://github.com/user-attachments/assets/7e8133c4-59fd-4309-b4c7-67f65066e07c
+https://github.com/user-attachments/assets/ab0b95f1-88c8-4b22-b3cb-08939f03da3d
 
 86 秒宣传片（中文配音）：用一个「读书清单」小项目，真实录屏演示换 AI 接着干、多个 AI 分工。
 
