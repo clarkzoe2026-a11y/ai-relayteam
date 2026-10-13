@@ -2,8 +2,6 @@
 
 **换 AI，活不停；多个 AI，会分工。**
 
-![AI 接力队：换 AI，活不停；多个 AI，会分工](docs/media/promo-cover.jpg)
-
 https://github.com/user-attachments/assets/7e8133c4-59fd-4309-b4c7-67f65066e07c
 
 86 秒宣传片（中文配音）：用一个「读书清单」小项目，真实录屏演示换 AI 接着干、多个 AI 分工。

@@ -2,8 +2,6 @@
 
 **Switch AIs, work continues. Multiple AIs collaborate.**
 
-![ai-relayteam: Switch AIs, work continues. Multiple AIs collaborate.](docs/media/promo-cover.jpg)
-
 https://github.com/user-attachments/assets/7e8133c4-59fd-4309-b4c7-67f65066e07c
 
 86-second promo (Chinese narration): real screen recordings of a small reading-list project, showing an AI picking up where another left off and several AIs splitting the work.
