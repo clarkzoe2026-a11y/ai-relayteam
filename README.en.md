@@ -2,7 +2,7 @@
 
 **Switch AIs, work continues. Multiple AIs collaborate.**
 
-[![86-second promo: Switch AIs, work continues. Multiple AIs collaborate.](docs/media/promo-poster.jpg)](docs/media/promo.mp4)
+[![86-second promo: Switch AIs, work continues. Multiple AIs collaborate.](docs/media/promo-cover.jpg)](docs/media/promo.mp4)
 
 ▶ Click to watch the 86-second promo (Chinese narration): real screen recordings of a small reading-list project, showing an AI picking up where another left off and several AIs splitting the work.
 
