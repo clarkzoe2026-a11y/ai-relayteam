@@ -2,9 +2,11 @@
 
 **换 AI，活不停；多个 AI，会分工。**
 
-[![86 秒宣传片：换 AI，活不停；多个 AI，会分工](docs/media/promo-cover.jpg)](docs/media/promo.mp4)
+![AI 接力队：换 AI，活不停；多个 AI，会分工](docs/media/promo-cover.jpg)
 
-▶ 点图片看 86 秒宣传片（中文配音）：用一个「读书清单」小项目，真实录屏演示换 AI 接着干、多个 AI 分工。
+https://github.com/user-attachments/assets/7e8133c4-59fd-4309-b4c7-67f65066e07c
+
+86 秒宣传片（中文配音）：用一个「读书清单」小项目，真实录屏演示换 AI 接着干、多个 AI 分工。
 
 > 一本放在项目里的「交接本」。不管换哪个 AI、开几个新窗口、隔多久回来，AI 打开项目就知道：做到哪了、下一步做什么、哪些事不能碰。你只管拍板。
 

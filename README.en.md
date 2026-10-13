@@ -2,9 +2,11 @@
 
 **Switch AIs, work continues. Multiple AIs collaborate.**
 
-[![86-second promo: Switch AIs, work continues. Multiple AIs collaborate.](docs/media/promo-cover.jpg)](docs/media/promo.mp4)
+![ai-relayteam: Switch AIs, work continues. Multiple AIs collaborate.](docs/media/promo-cover.jpg)
 
-▶ Click to watch the 86-second promo (Chinese narration): real screen recordings of a small reading-list project, showing an AI picking up where another left off and several AIs splitting the work.
+https://github.com/user-attachments/assets/7e8133c4-59fd-4309-b4c7-67f65066e07c
+
+86-second promo (Chinese narration): real screen recordings of a small reading-list project, showing an AI picking up where another left off and several AIs splitting the work.
 
 > A handoff notebook that lives inside your project. Whichever AI you switch to, however many new windows you open, however long you've been away — the AI opens the project and knows where things stand, what comes next, and what it must not touch. You just make the calls.
 
