@@ -2,6 +2,10 @@
 
 写给 AI 和用户看：每一版改了什么，用大白话。版本号与根目录 `VERSION` 一致。AI 发现新版时，会把这里的说明转述给用户，用户同意后按 [UPGRADE.md](UPGRADE.md) 升级。
 
+## 2026.10.15
+
+- **新增：规则升级后说一声。** 某个窗口升级了规则，其他开着的窗口重读规则后，会在下一次汇报开头用一句话告诉你升级到了哪一版、改了什么；只说一次，不用回复。
+
 ## 2026.10.14
 
 - **新增：AI 自动写回进度。** 每做完一步、用户做了决定、要结束对话或额度快用完时，AI 自己把进度写进 HANDOFF.md / STATUS.md，不用用户提醒。
@@ -12,6 +16,10 @@
 ---
 
 # Changelog (English)
+
+## 2026.10.15
+
+- **New: a one-line notice after a rules upgrade.** When the rules were upgraded from another window, the AI re-reads them and starts its next report with one sentence saying which version and what changed; only once, no reply needed.
 
 ## 2026.10.14
 
