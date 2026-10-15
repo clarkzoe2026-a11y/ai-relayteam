@@ -2,6 +2,12 @@
 
 写给 AI 和用户看：每一版改了什么，用大白话。版本号与根目录 `VERSION` 一致。AI 发现新版时，会把这里的说明转述给用户，用户同意后按 [UPGRADE.md](UPGRADE.md) 升级。
 
+## 2026.10.16
+
+- **新增：交接本保持精简。** HANDOFF.md 只写当前有效的事；超过约 3,000 字或某阶段完成时，AI 把已完成的历史原样移到 `docs/archive/`，留一行指向它。换窗口说「继续」时要读的内容不会越积越多，token 消耗保持稳定。
+- **新增：不写带用户名的本机路径。** 进度文件里用「本项目目录」或 `~` 代替，防止项目公开时泄露电脑用户名。
+- **调整：日期一律用电脑本地日期**，不用服务器时间。
+
 ## 2026.10.15
 
 - **新增：规则升级后说一声。** 某个窗口升级了规则，其他开着的窗口重读规则后，会在下一次汇报开头用一句话告诉你升级到了哪一版、改了什么；只说一次，不用回复。
@@ -16,6 +22,12 @@
 ---
 
 # Changelog (English)
+
+## 2026.10.16
+
+- **New: keep the handoff notebook short.** HANDOFF.md holds only what is currently valid; past roughly 3,000 characters or when a stage is finished, the AI moves finished history verbatim to `docs/archive/` and leaves a pointer, so what a new window reads on "continue" (and its token cost) stays small.
+- **New: no local paths containing a user name** in progress files; use "the project folder" or `~`.
+- **Changed: dates always use the computer's local date**, not server time.
 
 ## 2026.10.15
 

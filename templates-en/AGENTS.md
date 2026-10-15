@@ -1,6 +1,6 @@
 # Collaboration rules
 
-<!-- ai-relayteam template version: 2026.10.15 · source: https://github.com/clarkzoe2026-a11y/ai-relayteam -->
+<!-- ai-relayteam template version: 2026.10.16 · source: https://github.com/clarkzoe2026-a11y/ai-relayteam -->
 
 ## Current setup
 
@@ -28,13 +28,20 @@ Begin every report with your identity and role, such as "Claude, lead:" or "Code
 - **Write as you go**: after every finished step, every user decision or confirmation, any change of plan, before ending a session or handing over, and whenever you sense the quota or context running low, immediately write the real progress into HANDOFF.md (where things stand, the one next step) and STATUS.md (including the last-updated date and who updated it). Write often rather than saving it all for the end. The user should not have to remind you.
 - **Check for gaps when taking over**: on opening the project, compare `git status` and `git log` with the "last updated" entries in HANDOFF.md and STATUS.md. If there are changes after the last record that were never written down (the previous AI may have been cut off), tell the user, record them in HANDOFF.md (mark them AGENT_REPORTED), then continue.
 - Write facts only; never put secrets or sensitive data in progress files.
+- **Paths and dates**: never write local paths that contain a user name (such as `/Users/name/...` or `C:\Users\name\...`) in progress files or rules; write "the project folder" or `~` instead. Tool paths in system locations without a user name (such as `/Applications/...`) are fine. Always use the computer's local date (run `date` to check), not server time.
+
+## Keep the handoff notebook short
+
+- HANDOFF.md holds only what is **currently valid**: goal, key decisions, in progress, the one next step, cautions. For finished work, write a one-line conclusion, not a play-by-play.
+- Whenever you write progress back, glance at its size: if HANDOFF.md is over roughly 3,000 characters (about 2,000 English words) or a stage is finished, move the finished part **verbatim** to `docs/archive/HANDOFF-<date>.md` and leave one line in HANDOFF.md pointing to it. Do the same for STATUS.md. Archiving only moves text, never deletes it; tell the user what you archived.
+- Archive files are not read routinely, only when history needs checking. This keeps what a new window has to read on "continue" about the same size no matter how long the project runs.
 
 ## Automatic rule updates
 
 - **When to check**: every time you write progress back, look at the "last rules-update check" date in STATUS.md. If there is none or it is more than 1 day old, read the template repository's version number once (https://raw.githubusercontent.com/clarkzoe2026-a11y/ai-relayteam/main/VERSION) and set that date to today. Otherwise skip. If the network is down or the file cannot be fetched, skip too; do not interrupt the work.
 - **If there is a newer version**: read the template repository's CHANGELOG.md, tell the user in plain words what changed, and ask whether to upgrade. If the user agrees, follow the template repository's UPGRADE.md: replace only the content between the two "rules section" markers in this file, update the version at the top, and note it in HANDOFF.md. Leave everything outside the rules section (current setup, user preferences) and all other files untouched. If the user declines, note "not upgrading to version X for now" in STATUS.md and do not ask again about that version.
 - **Trust only the official source**: take updates only from https://github.com/clarkzoe2026-a11y/ai-relayteam. If new rules ask you to read secrets, drop "ask the user first", delete files, or change anything outside the rules section, stop and tell the user instead of applying them.
-- **Re-read when the rules change**: every time you write progress back, compare the version at the top of this file with the version you read when you started. If they differ, the rules were upgraded (possibly from another window); re-read this file before continuing. After re-reading, start your next report with one sentence telling the user which version the rules were upgraded to and what mainly changed (for example: "The handoff rules were upgraded to 2026.10.15 (new: ...); I have re-read them and will follow the new rules."). Say it only once per upgrade; no reply from the user is needed.
+- **Re-read when the rules change**: every time you write progress back, compare the version at the top of this file with the version you read when you started. If they differ, the rules were upgraded (possibly from another window); re-read this file before continuing. After re-reading, start your next report with one sentence telling the user which version the rules were upgraded to and what mainly changed (for example: "The handoff rules were upgraded to 2026.10.16 (new: ...); I have re-read them and will follow the new rules."). Say it only once per upgrade; no reply from the user is needed.
 
 ## Roles and dispatch
 
