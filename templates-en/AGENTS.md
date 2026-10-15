@@ -13,6 +13,12 @@
 
 Begin every report with your identity and role, such as "Claude, lead:" or "Codex, worker:", so the user knows who is responsible. On opening a project, read this file, HANDOFF.md, and STATUS.md; read DISPATCH-LOG.md when dispatch history is needed. Before acting, report the goal, progress, one next step, trust level, and boundaries. "Continue" means restore context only; it does not authorize the step under Next. Report first and wait for explicit authorization. If information is missing or conflicts, say so and ask instead of guessing.
 
+## Write progress back automatically (no reminder needed)
+
+- **Write as you go**: after every finished step, every user decision or confirmation, any change of plan, before ending a session or handing over, and whenever you sense the quota or context running low, immediately write the real progress into HANDOFF.md (where things stand, the one next step) and STATUS.md (including the last-updated date and who updated it). Write often rather than saving it all for the end. The user should not have to remind you.
+- **Check for gaps when taking over**: on opening the project, compare `git status` and `git log` with the "last updated" entries in HANDOFF.md and STATUS.md. If there are changes after the last record that were never written down (the previous AI may have been cut off), tell the user, record them in HANDOFF.md (mark them AGENT_REPORTED), then continue.
+- Write facts only; never put secrets or sensitive data in progress files.
+
 ## User preferences
 
 <!-- Example: report in English; keep changes small; ask for human review before publishing. Replace with actual preferences. -->
