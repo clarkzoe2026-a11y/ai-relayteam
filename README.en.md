@@ -67,7 +67,7 @@ Following https://github.com/clarkzoe2026-a11y/ai-relayteam/blob/main/INSTALL.md
 
 The AI does the rest: it downloads the templates, reads your project to work out where things stand, then asks you just two or three questions (which AI, your preferences, whether its guess about your progress is right), fills everything in, and shows you the result to confirm. It won't overwrite files you already have.
 
-After that, whichever AI or window you use, just say "continue". The AI writes progress back into `HANDOFF.md` by itself after every step, so you never have to remind it; and if the previous AI was cut off before writing, the next one first finds the unrecorded changes, fills them in, and then continues.
+After that, whichever AI or window you use, just say "continue". The AI writes progress back into `HANDOFF.md` by itself after every step, so you never have to remind it; and if the previous AI was cut off before writing, the next one first finds the unrecorded changes, fills them in, and then continues. When the notebook rules get updated, the AI notices by itself, tells you what changed, and upgrades once you say yes (if you installed before 2026.10.14, first tell the AI once: "upgrade the handoff notebook following ai-relayteam's UPGRADE.md"; after that it is automatic).
 
 <details>
 <summary>Prefer to do it by hand? (manual install)</summary>
